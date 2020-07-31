@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	   <title>Add Animal</title>
+	   <style>
+			input{position:absolute;left:70px;}
+			#sub{left:10px;width:100px;}
+	   </style>
+    </head>
+    <body>
+        <form method ="post" action="addAnimal.php" enctype="multipart/form-data">
+            <h1>Add Animal</h1>
+            <p><label>ID:<input type="text" name="id" maxlength="9" required></label></p>
+			<p><label>Name:<input type="text" name="fullName" maxlength="100" required></label></p>
+			<p><label>Type:<input type="text" name="type" maxlength="100" required></label></p>
+			<p><label>Inhebitance:<input type="text" name="inhebitance" maxlength="100" required></label></p>
+			<p><label>nutrition:<input type="text" name="nutrition" maxlength="100" required></label></p>
+			<!-- <p><label>picture:<input type="text" name="picture" maxlength="100" required></label></p> -->
+			<label for="img">Select image:</label>
+			<input type="file" name="fileToUpload" id="fileToUpload">
+			<p><input id="sub" type="submit" value="Add Animal"></p>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,101 @@
+<body>
+
+.collapse navbar navbar-expand-sm bg-dark navbar-dark{
+	text-align: right;
+}
+
+.jumbotron a{
+	margin-left: 0px;
+	margin-right: 0 px;
+	margin-top: 0px;
+	float:right;
+	width:250px;
+	opacity:10;
+}
+.navbar-toggler.toggler-example {
+  cursor: pointer;
+}
+footer
+{
+	text-align: center;
+	
+}
+
+.container{
+	align: right;
+	margin-right:0px;
+}
+
+.hours{
+	float: right;
+	text-align:right;
+	border-style: solid;
+	border-radius: 25px;
+	margin-top:25px;
+	margin-bottom:25px;
+	padding:4px;
+	background-color:#E0FFFF;
+}
+.zoo-header{
+	color:rgb(138, 138, 92);
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+
+.info1{
+	text-align: center;
+	margin-right: 30%;
+	margin-top:25px;
+	margin-bottom:25px;
+	background-color:#F5F5F5;
+}
+
+.zoo-footer{
+	background-color:#F5F5F5;
+	color: #000;
+	
+}
+
+.site-footer {
+  background: #cecece;
+}
+
+.info{
+	text-align: right;
+	color: #3d3d5c;
+	border-style: solid;
+	border-width: 2px;
+	border-color:#3d3d5c;
+	margin-right: 3px;
+	vertical-align: top;
+	margin-top: 4px;
+	
+}
+
+.title1{
+	text-align: center;
+	color:rgb(138, 138, 92);
+	margin-top:4px;
+}
+
+.button1{ 
+	text-align: center;
+	margin-top: 4px;
+	background-color:#b3b3cc;
+	border-style: solid;
+	border-width: 2px;
+	border-color:#3d3d5c;
+	
+	
+}
+.animalSlide{
+	height: 20px;
+	width: 10%;
+}
+
+.zoo-img{
+	width:100%;
+	height:px;
+}
+
+</body>
